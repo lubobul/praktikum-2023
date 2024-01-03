@@ -1,0 +1,28 @@
+.home-icon{
+    padding: 0 1rem;
+}
+
+.all-links > .nav-item > .nav-link{
+    padding: 0.1rem 0.5rem;
+}
+
+.navigation-links > li:not(:last-child){
+    margin-right: 1rem;
+}
+
+.rounded-5{
+    border-radius: 1rem;
+}
+
+.login-container{
+    padding: 1rem;
+    height: 100%;
+}
+
+.submit-btn{
+    width: 100%;
+}
+
+.login-image{
+    width: -webkit-fill-available;
+}
