@@ -1,6 +1,6 @@
 function shakeElementsBySelector(selector) {
     var elements = document.querySelectorAll(selector);
-    elements.forEach(function (element) {
+    elements.forEach((element) => {
         var shakeAnimation = element.animate([
             { transform: 'translateX(20px)' },
             { transform: 'translateX(-20px)' },
@@ -24,7 +24,7 @@ function fallApart() {
 
     var elements = document.querySelectorAll("div");
 
-    elements.forEach(function (element) {
+    elements.forEach((element) => {
         // Generate a random angle
         var angle = Math.random() * 2 * Math.PI;
 

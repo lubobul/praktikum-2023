@@ -1,1 +1,1 @@
-# This repository is used for a university project.
+# This repository is used for a university project for Web development using Bootstrap 5
