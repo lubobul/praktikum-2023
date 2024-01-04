@@ -23,6 +23,7 @@ function fallApart() {
     console.log("Oh Nooo!!!");
 
     var elements = document.querySelectorAll("div");
+
     elements.forEach(function (element) {
         // Generate a random angle
         var angle = Math.random() * 2 * Math.PI;
@@ -37,4 +38,9 @@ function fallApart() {
         // Add a transition to animate the transform
         element.style.transition = 'transform 2s';
     });
+
+    let timeOut = setTimeout(() => {
+        fallApart();
+        clearTimeout(timeOut);
+    }, 2000)
 }
